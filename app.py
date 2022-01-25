@@ -28,5 +28,5 @@ def method():
     else:
         return "Probably getting GET request"
 """
-
-app.run()
+if __name__ == '__main__':
+    app.run()
